@@ -1,8 +1,10 @@
 //  github api
-//  octokit
+//  octokit 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
 const { Octokit } = require("octokit");
+const core = require('@actions/core');
+const token = core.getInput('token');
 const octokit = new Octokit({
-  auth: `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`,
+  auth: token,
 });
 
 // octokit api create issue
