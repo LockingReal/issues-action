@@ -22675,7 +22675,7 @@ function getTitle() {
 }
 
 function getBody() {
-  return "[如何写每日任务](https://github.com/cuixiaorui/study-every-day/blob/main/sed/daily-task.md)";
+  return "新年快乐!🏮";
 }
 
 })();

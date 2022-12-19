@@ -1,4 +1,7 @@
-on: [push]
+# on: [push]
+on:
+  schedule:
+  - cron: "1 16 * * *"
 
 jobs:
   create_issues_action:
@@ -8,6 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: create issues action
-        uses: ./ # Uses an action in the root directory
+        uses: LockingReal/issues-action@main # Uses an action in the root directory
         with:
           token: ${{secrets.TOKEN}}
