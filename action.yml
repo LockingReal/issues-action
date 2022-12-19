@@ -1,0 +1,13 @@
+name: "test create issues"
+description: "test create issues"
+# inputs:
+#   who-to-great: # id of input
+#     description: ""
+#     required: true
+#     default: ""
+# outputs:
+#   time:
+#     description: ""
+runs:
+  using: "node12"
+  main: "dist/index.js"

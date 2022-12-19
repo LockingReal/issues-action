@@ -1,0 +1,26 @@
+{
+  "name": "issues-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"ncc build index.js --license license.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LockingReal/issues-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LockingReal/issues-action/issues"
+  },
+  "homepage": "https://github.com/LockingReal/issues-action#readme",
+  "dependencies": {
+    "octokit": "^2.0.10"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.0"
+  }
+}
