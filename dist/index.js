@@ -22658,8 +22658,8 @@ const octokit = new Octokit({
 octokit.rest.issues.create({
   owner: "LockingReal",
   repo: "issues-action",
-  title: "lockingreal first issue",
-  body:"test",
+  title: "lockingreal second issue",
+  body:"test2",
 });
 
 })();
