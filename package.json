@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/LockingReal/issues-action#readme",
   "dependencies": {
-    "octokit": "^2.0.10"
+    "@actions/core": "^1.6.0",
+    "dayjs": "^1.10.7",
+    "octokit": "^1.7.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.36.0"
+    "@vercel/ncc": "^0.31.1"
   }
 }
