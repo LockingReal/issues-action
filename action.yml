@@ -1,13 +1,9 @@
 name: "test create issues"
 description: "test create issues"
-# inputs:
-#   who-to-great: # id of input
-#     description: ""
-#     required: true
-#     default: ""
-# outputs:
-#   time:
-#     description: ""
+inputs:
+  token: # id of input
+    description: "github token"
+    required: true
 runs:
   using: "node12"
   main: "dist/index.js"
